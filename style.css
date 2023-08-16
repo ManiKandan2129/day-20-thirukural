@@ -1,0 +1,77 @@
+body{
+    background-image: url("https://i.ytimg.com/vi/6EboowIwq3I/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    height: 400px;
+    width: 800px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: sandybrown;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 150px;
+    z-index: 10;
+    border-radius: 20px;
+}
+.col-12{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.btn-group{
+    position: absolute;
+    bottom: 5%;
+}
+.thirukural{
+    text-align: center;
+}
+
+.main-kural,.chapter,.section,.tam-exp{
+    margin-top: 10px;
+    font-weight: 800;
+
+}
+.tam-exp{
+    text-align: justify;
+}
+.sub-title{
+    font-weight: bolder;
+    color: brown;
+}
+.heading{
+    color: rgb(226, 53, 10);
+}
+.thiru-img{
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    right: 80px;
+    top: 0;
+    
+}
+.title{
+    color:brown ;
+    font-weight: bolder;
+    font-size: larger;
+}
+.btn{
+    background-color: brown;
+    color: black;
+    border-style: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.kural-num{
+    font-weight: 800;
+    position: absolute;
+    bottom: 70px;
+
+}
+.note{
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    
+}
